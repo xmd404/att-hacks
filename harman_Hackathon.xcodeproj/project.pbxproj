@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DC97EA11CC268C2005C9BA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC97EA01CC268C2005C9BA5 /* AppDelegate.swift */; };
+		9DC97EA31CC268C2005C9BA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC97EA21CC268C2005C9BA5 /* Assets.xcassets */; };
+		9DC97EA61CC268C2005C9BA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC97EA41CC268C2005C9BA5 /* LaunchScreen.storyboard */; };
+		9DC97EB11CC268C3005C9BA5 /* harman_HackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC97EB01CC268C3005C9BA5 /* harman_HackathonTests.swift */; };
+		9DC97EBC1CC268C3005C9BA5 /* harman_HackathonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC97EBB1CC268C3005C9BA5 /* harman_HackathonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DC97EAD1CC268C2005C9BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DC97E951CC268C2005C9BA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC97E9C1CC268C2005C9BA5;
+			remoteInfo = harman_Hackathon;
+		};
+		9DC97EB81CC268C3005C9BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DC97E951CC268C2005C9BA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC97E9C1CC268C2005C9BA5;
+			remoteInfo = harman_Hackathon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9DC97E9D1CC268C2005C9BA5 /* harman_Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = harman_Hackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC97EA01CC268C2005C9BA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DC97EA21CC268C2005C9BA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DC97EA51CC268C2005C9BA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DC97EA71CC268C2005C9BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC97EAC1CC268C2005C9BA5 /* harman_HackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = harman_HackathonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC97EB01CC268C3005C9BA5 /* harman_HackathonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = harman_HackathonTests.swift; sourceTree = "<group>"; };
+		9DC97EB21CC268C3005C9BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC97EB71CC268C3005C9BA5 /* harman_HackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = harman_HackathonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DC97EBB1CC268C3005C9BA5 /* harman_HackathonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = harman_HackathonUITests.swift; sourceTree = "<group>"; };
+		9DC97EBD1CC268C3005C9BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DC97E9A1CC268C2005C9BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC97EA91CC268C2005C9BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC97EB41CC268C3005C9BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DC97E941CC268C2005C9BA5 = {
+			isa = PBXGroup;
+			children = (
+				9DC97E9F1CC268C2005C9BA5 /* harman_Hackathon */,
+				9DC97EAF1CC268C3005C9BA5 /* harman_HackathonTests */,
+				9DC97EBA1CC268C3005C9BA5 /* harman_HackathonUITests */,
+				9DC97E9E1CC268C2005C9BA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DC97E9E1CC268C2005C9BA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DC97E9D1CC268C2005C9BA5 /* harman_Hackathon.app */,
+				9DC97EAC1CC268C2005C9BA5 /* harman_HackathonTests.xctest */,
+				9DC97EB71CC268C3005C9BA5 /* harman_HackathonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DC97E9F1CC268C2005C9BA5 /* harman_Hackathon */ = {
+			isa = PBXGroup;
+			children = (
+				9DC97EA01CC268C2005C9BA5 /* AppDelegate.swift */,
+				9DC97EA21CC268C2005C9BA5 /* Assets.xcassets */,
+				9DC97EA41CC268C2005C9BA5 /* LaunchScreen.storyboard */,
+				9DC97EA71CC268C2005C9BA5 /* Info.plist */,
+			);
+			path = harman_Hackathon;
+			sourceTree = "<group>";
+		};
+		9DC97EAF1CC268C3005C9BA5 /* harman_HackathonTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DC97EB01CC268C3005C9BA5 /* harman_HackathonTests.swift */,
+				9DC97EB21CC268C3005C9BA5 /* Info.plist */,
+			);
+			path = harman_HackathonTests;
+			sourceTree = "<group>";
+		};
+		9DC97EBA1CC268C3005C9BA5 /* harman_HackathonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DC97EBB1CC268C3005C9BA5 /* harman_HackathonUITests.swift */,
+				9DC97EBD1CC268C3005C9BA5 /* Info.plist */,
+			);
+			path = harman_HackathonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DC97E9C1CC268C2005C9BA5 /* harman_Hackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC97EC01CC268C3005C9BA5 /* Build configuration list for PBXNativeTarget "harman_Hackathon" */;
+			buildPhases = (
+				9DC97E991CC268C2005C9BA5 /* Sources */,
+				9DC97E9A1CC268C2005C9BA5 /* Frameworks */,
+				9DC97E9B1CC268C2005C9BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = harman_Hackathon;
+			productName = harman_Hackathon;
+			productReference = 9DC97E9D1CC268C2005C9BA5 /* harman_Hackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DC97EAB1CC268C2005C9BA5 /* harman_HackathonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC97EC31CC268C3005C9BA5 /* Build configuration list for PBXNativeTarget "harman_HackathonTests" */;
+			buildPhases = (
+				9DC97EA81CC268C2005C9BA5 /* Sources */,
+				9DC97EA91CC268C2005C9BA5 /* Frameworks */,
+				9DC97EAA1CC268C2005C9BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DC97EAE1CC268C2005C9BA5 /* PBXTargetDependency */,
+			);
+			name = harman_HackathonTests;
+			productName = harman_HackathonTests;
+			productReference = 9DC97EAC1CC268C2005C9BA5 /* harman_HackathonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DC97EB61CC268C3005C9BA5 /* harman_HackathonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DC97EC61CC268C3005C9BA5 /* Build configuration list for PBXNativeTarget "harman_HackathonUITests" */;
+			buildPhases = (
+				9DC97EB31CC268C3005C9BA5 /* Sources */,
+				9DC97EB41CC268C3005C9BA5 /* Frameworks */,
+				9DC97EB51CC268C3005C9BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DC97EB91CC268C3005C9BA5 /* PBXTargetDependency */,
+			);
+			name = harman_HackathonUITests;
+			productName = harman_HackathonUITests;
+			productReference = 9DC97EB71CC268C3005C9BA5 /* harman_HackathonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DC97E951CC268C2005C9BA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Abhinav Reddy";
+				TargetAttributes = {
+					9DC97E9C1CC268C2005C9BA5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					9DC97EAB1CC268C2005C9BA5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9DC97E9C1CC268C2005C9BA5;
+					};
+					9DC97EB61CC268C3005C9BA5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9DC97E9C1CC268C2005C9BA5;
+					};
+				};
+			};
+			buildConfigurationList = 9DC97E981CC268C2005C9BA5 /* Build configuration list for PBXProject "harman_Hackathon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DC97E941CC268C2005C9BA5;
+			productRefGroup = 9DC97E9E1CC268C2005C9BA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DC97E9C1CC268C2005C9BA5 /* harman_Hackathon */,
+				9DC97EAB1CC268C2005C9BA5 /* harman_HackathonTests */,
+				9DC97EB61CC268C3005C9BA5 /* harman_HackathonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DC97E9B1CC268C2005C9BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC97EA31CC268C2005C9BA5 /* Assets.xcassets in Resources */,
+				9DC97EA61CC268C2005C9BA5 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC97EAA1CC268C2005C9BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC97EB51CC268C3005C9BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DC97E991CC268C2005C9BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC97EA11CC268C2005C9BA5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC97EA81CC268C2005C9BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC97EB11CC268C3005C9BA5 /* harman_HackathonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC97EB31CC268C3005C9BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DC97EBC1CC268C3005C9BA5 /* harman_HackathonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DC97EAE1CC268C2005C9BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DC97E9C1CC268C2005C9BA5 /* harman_Hackathon */;
+			targetProxy = 9DC97EAD1CC268C2005C9BA5 /* PBXContainerItemProxy */;
+		};
+		9DC97EB91CC268C3005C9BA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DC97E9C1CC268C2005C9BA5 /* harman_Hackathon */;
+			targetProxy = 9DC97EB81CC268C3005C9BA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DC97EA41CC268C2005C9BA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DC97EA51CC268C2005C9BA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DC97EBE1CC268C3005C9BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DC97EBF1CC268C3005C9BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DC97EC11CC268C3005C9BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = harman_Hackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Reddyman.harman-Hackathon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DC97EC21CC268C3005C9BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = harman_Hackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Reddyman.harman-Hackathon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9DC97EC41CC268C3005C9BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = harman_HackathonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Reddyman.harman-HackathonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/harman_Hackathon.app/harman_Hackathon";
+			};
+			name = Debug;
+		};
+		9DC97EC51CC268C3005C9BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = harman_HackathonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Reddyman.harman-HackathonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/harman_Hackathon.app/harman_Hackathon";
+			};
+			name = Release;
+		};
+		9DC97EC71CC268C3005C9BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = harman_HackathonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Reddyman.harman-HackathonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = harman_Hackathon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9DC97EC81CC268C3005C9BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = harman_HackathonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Reddyman.harman-HackathonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = harman_Hackathon;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DC97E981CC268C2005C9BA5 /* Build configuration list for PBXProject "harman_Hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC97EBE1CC268C3005C9BA5 /* Debug */,
+				9DC97EBF1CC268C3005C9BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DC97EC01CC268C3005C9BA5 /* Build configuration list for PBXNativeTarget "harman_Hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC97EC11CC268C3005C9BA5 /* Debug */,
+				9DC97EC21CC268C3005C9BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DC97EC31CC268C3005C9BA5 /* Build configuration list for PBXNativeTarget "harman_HackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC97EC41CC268C3005C9BA5 /* Debug */,
+				9DC97EC51CC268C3005C9BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9DC97EC61CC268C3005C9BA5 /* Build configuration list for PBXNativeTarget "harman_HackathonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC97EC71CC268C3005C9BA5 /* Debug */,
+				9DC97EC81CC268C3005C9BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DC97E951CC268C2005C9BA5 /* Project object */;
+}
